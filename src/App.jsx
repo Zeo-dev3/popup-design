@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./assets/logo.png";
 
-const KemenkesPopup = () => {
+const Popup = () => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50">
       <div className="relative bg-white p-6 rounded-xl shadow-xl w-[38rem] h-[26rem]">
@@ -56,4 +56,4 @@ const KemenkesPopup = () => {
   );
 };
 
-export default KemenkesPopup;
+export default Popup;
